@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>shop rok f2p</title>
+   </head>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                  <i class="ri-planet-line"></i> rok
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+          <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="https://luca7977.github.io/Rokstorehome/" class="nav__link">Home</a></li>
+
+                  <li><a href="https://luca7977.github.io/Rokstorecaculator/" class="nav__link">tính toán</a></li>
+
+           
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        rss <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                       
+                        <!--=============== DROPDOWN SUBMENU ===============-->
+                        <li class="dropdown__subitem">
+                           <div class="dropdown__link">
+                              <i class="ri-bar-chart-line"></i> kd 2999 <i class="ri-add-line dropdown__add"></i>
+                           </div>
+
+                           <ul class="dropdown__submenu">
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                 <img src="https://cdn.glitch.global/1702ca7b-5444-4912-952a-4584f29c7300/corn.png?v=1723710470684" alt="Ảnh ngô" width="30" height="30">  thực phẩm
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                 <img src="https://cdn.glitch.global/1702ca7b-5444-4912-952a-4584f29c7300/tree-log_12017701.png?v=1723711696821" alt="Ảnh ngô" width="30" height="30"> gỗ 
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                   <img src="https://cdn.glitch.global/1702ca7b-5444-4912-952a-4584f29c7300/rock_15838034.png?v=1723711993550" alt="Ảnh ngô" width="30" height="30"> 
+
+       đá
+                                 </a>
+                              </li>
+                         <li>
+
+                                 <a href="#" class="dropdown__sublink">
+
+                                     <img src="https://cdn.glitch.global/1702ca7b-5444-4912-952a-4584f29c7300/gold-ingots_646671.png?v=1723712100450" alt="Ảnh ngô" width="30" height="30"> 
+
+vàng
+
+                                 </a>
+
+                              </li>
+
+                           
+                          </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  
+                 
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        acc <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-user-line"></i> acc thường
+                           </a>                          
+                        </li>
+
+<ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-user-line"></i> acc farm (2999)
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> Messages
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+
+                  <li><a href="#" class="nav__link">Contact</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>   
+       <div class="body">
+  <body>
+    <div class="calculator">
+        <h1>Tính toán vật phẩm</h1>
+        <table>
+            <tr>
+                <th>Loại vật phẩm</th>
+                <th>Số lượng</th>
+                <th>Giá trị vật phẩm(phút)</th>
+                <th>Tính tổng</th>
+            </tr>
+            <tr>
+                <td>1 min</td>
+                <td><input type="number" id="item1" value="0" min="0"></td>
+                <td>1</td>
+                <td id="total1">0</td>
+            </tr>
+            <tr>
+                <td>5 min</td>
+                <td><input type="number" id="item5" value="0" min="0"></td>
+                <td>5</td>
+                <td id="total5">0</td>
+            </tr>
+            <tr>
+                <td>10 min</td>
+                <td><input type="number" id="item10" value="0" min="0"></td>
+                <td>10</td>
+                <td id="total10">0</td>
+            </tr>
+            <tr>
+                <td>15 min</td>
+                <td><input type="number" id="item15" value="0" min="0"></td>
+                <td>15</td>
+                <td id="total15">0</td>
+            </tr>
+        
+    <tr>
+        <td>30 phút</td>
+        <td><input type="number" id="item30" value="0" min="0"></td>
+        <td>30</td>
+        <td id="total30">0</td>
+    </tr>
+    <tr>
+        <td>60 phút</td>
+        <td><input type="number" id="item60" value="0" min="0"></td>
+        <td>60</td>
+        <td id="total60">0</td>
+    </tr>
+    <tr>
+        <td>3 giờ</td>
+        <td><input type="number" id="item180" value="0" min="0"></td>
+        <td>180</td>
+        <td id="total180">0</td>
+    </tr>
+    <tr>
+        <td>8 giờ</td>
+        <td><input type="number" id="item480" value="0" min="0"></td>
+        <td>480</td>
+        <td id="total480">0</td>
+    </tr>
+    <tr>
+        <td>15 giờ</td>
+        <td><input type="number" id="item900" value="0" min="0"></td>
+        <td>900</td>
+        <td id="total900">0</td>
+    </tr>
+    <tr>
+        <td>24 giờ</td>
+        <td><input type="number" id="item1440" value="0" min="0"></td>
+        <td>1440</td>
+        <td id="total1440">0</td>
+    </tr>
+    <tr>
+        <td>3 ngày</td>
+        <td><input type="number" id="item4320" value="0" min="0"></td>
+        <td>4320</td>
+        <td id="total4320">0</td>
+    </tr>
+    <tr>
+        <td>7 ngày</td>
+        <td><input type="number" id="item10080" value="0" min="0"></td>
+        <td>10080</td>
+        <td id="total10080">0</td>
+    </tr>
+
+      
+      
+      
+      
+      
+      </table>
+        <button onclick="calculateTotal()">Tính toán tổng</button>
+        <button onclick="resetCalculator()">Reset</button>
+        <h2>Tổng giá trị: <span id="finalTotal">0</span> phút</h2>
+    
+    
+  <script src="script.js"></script>
+
+  <div class="buttons">
+     <button onclick="convertToHours()">Chuyển đổi phút thành giờ</button>
+</div>
+
+  <h2>Tổng giờ: <span id="totalHours">0</span></h2>
+</div>
+  </body>
+</html>
+
+     
+     
+     </body>
+</html>
